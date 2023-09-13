@@ -1,12 +1,10 @@
 import React from "react";
-import { Header } from "./appHeader";
-import { Note } from "./note";
-import { Footer } from "./footer";
+import { Counter } from "./counter";
 function App() {
     return <>
-        <Header />
-        <Note />
-        <Footer />
+    
+<Counter />
+ 
     </>
 }
 
